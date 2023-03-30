@@ -1,0 +1,25 @@
+@import "./header";
+
+html {
+    font-family: "Alata", sans-serif;
+}
+
+body {
+    margin: 0;
+
+    h1,
+    h2,
+    h3 {
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    a{
+        font-family: "Josefin Sans", sans-serif;
+        text-decoration: none;
+        color: white;
+    }
+
+    ul{
+        list-style: none;
+    }
+}

@@ -1,0 +1,27 @@
+header {
+  background-image: url("./images/mobile/image-hero.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+html {
+  font-family: "Alata", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+body h1,
+body h2,
+body h3 {
+  font-family: "Josefin Sans", sans-serif;
+}
+body a {
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+body ul {
+  list-style: none;
+}/*# sourceMappingURL=general.css.map */
