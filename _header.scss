@@ -1,7 +1,27 @@
 header{
     background-image: url("./images/mobile/image-hero.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
     height: 100vh;
+
+    padding: 2rem 1rem;
+
+    .hamburger-menu{
+        display: flex;
+        justify-content: space-between;
+
+        img{
+            width: 10rem;
+        }
+
+        .hamburger-icon{
+            .line{
+                margin: 0.3rem;
+                width: 1.5rem;
+                height: 0.12rem;
+                background-color: white;
+            }
+        }
+    }
 }
