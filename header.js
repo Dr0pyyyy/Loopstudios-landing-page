@@ -1,3 +1,4 @@
+//Control for showing the right menu
 const hamburgerIcon = document.querySelector(".hamburger-icon");
 const headerContent = document.querySelector("header .content");
 const header = document.querySelector("header");

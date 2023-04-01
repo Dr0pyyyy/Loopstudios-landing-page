@@ -64,10 +64,12 @@ header{
 }
 
 @media screen and (min-width: 810px) {
+    /* Zkontrolovat jestli responzivitu */
+    /* Dodělat menu*/
     header{
         background-image: url("./images/desktop/image-hero.jpg");
         background-size: cover;
-        height: 21.5rem; /*Upravit výšku nejspíš použít clamp*/ 
+        height: 21.5rem; /* Upravit výšku nejspíš použít clamp */ 
 
         .content{
             margin-top: 5rem;
