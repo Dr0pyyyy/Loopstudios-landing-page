@@ -9,11 +9,9 @@ hamburgerIcon.addEventListener("click", function () {
         nav.style.display = "none";
         header.style.backgroundImage = "url(\"./images/mobile/image-hero.jpg\")";
         headerContent.style.display = "block";
-        console.log("Seeting nav to display: none")
     } else {
         nav.style.display = "block";
         header.style.backgroundImage = "none";
         headerContent.style.display = "none";
-        console.log("Seeting nav to display: block")
     }
 });

@@ -91,6 +91,24 @@ header .content h1 {
     font-size: clamp(2rem, 6.5vw, 4rem);
   }
 }
+.vr {
+  padding: 0rem 1.3rem;
+  padding-top: 6rem;
+  text-align: center;
+}
+.vr img {
+  width: 100%;
+}
+.vr h2 {
+  font-weight: 300;
+  font-size: 2rem;
+}
+.vr p {
+  color: hsl(0, 0%, 55%);
+  width: 20rem;
+  line-height: 1.8;
+}
+
 html {
   font-family: "Alata", sans-serif;
 }
@@ -110,4 +128,8 @@ body a {
 }
 body ul {
   list-style: none;
+}
+body main {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=general.css.map */
