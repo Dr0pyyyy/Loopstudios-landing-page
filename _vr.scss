@@ -1,6 +1,6 @@
 .vr{
     padding: 0rem 1.3rem;
-    padding-top: 6rem;
+    padding-top: 4rem;
     text-align: center;
 
     img{
@@ -22,33 +22,33 @@
 @media screen and (min-width: 810px) {
     .vr{
         display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin-top: 4rem;
+        background-color: rgb(242, 228, 239);
 
         img{
-            width: 24rem;
-            height: 18rem;
+            width: clamp(24rem, 40vw, 40rem);
         }
 
         article{
             display: flex;
             flex-direction: column;
-            align-items: center;
 
             padding: 1rem;
-            width: 20rem;
-
-            background-color: rgb(242, 228, 239);
+            width: clamp(20rem, 40vw, 30rem);
             
             h2, p{
                 margin: 0;
             }
 
             h2{
-                font-size: 2rem;
+                font-size: clamp(2rem, 3vw, 3rem);
                 text-align: left;
             }
 
             p{
-                font-size: 0.8rem;
+                font-size: clamp(0.8rem, 2vw, 1.3rem);
                 text-align: left;
             }
         }
