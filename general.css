@@ -109,6 +109,52 @@ header .content h1 {
   line-height: 1.8;
 }
 
+@media screen and (min-width: 810px) {
+  .vr {
+    display: flex;
+  }
+  .vr img {
+    width: 24rem;
+    height: 18rem;
+  }
+  .vr article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 20rem;
+    background-color: rgb(242, 228, 239);
+  }
+  .vr article h2, .vr article p {
+    margin: 0;
+  }
+  .vr article h2 {
+    font-size: 2rem;
+    text-align: left;
+  }
+  .vr article p {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+}
+.our-creations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our-creations .image-container {
+  position: relative;
+}
+.our-creations .image-container img {
+  width: 20rem;
+}
+.our-creations .image-container h3 {
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  margin-left: 20px;
+}
+
 html {
   font-family: "Alata", sans-serif;
 }
@@ -131,5 +177,6 @@ body ul {
 }
 body main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }/*# sourceMappingURL=general.css.map */

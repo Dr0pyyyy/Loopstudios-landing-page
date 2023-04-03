@@ -1,60 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loopstudios Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./general.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Loopstudios Landing Page</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="./general.css" />
-</head>
+  <body>
+    <header>
+      <!--Hamburger menu-->
+      <div class="hamburger-menu">
+        <img src="./images/logo.svg" alt="loopstudios logo" />
+        <a class="hamburger-icon" href="#">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </a>
+      </div>
 
-<body>
-  <header>
-    <!--Hamburger menu-->
-    <div class="hamburger-menu">
-      <img src="./images/logo.svg" alt="loopstudios logo" />
-      <a class="hamburger-icon" href="#">
-        <div class="line line1"></div>
-        <div class="line line2"></div>
-        <div class="line line3"></div>
-      </a>
-    </div>
+      <!--Navigation menu-->
+      <nav>
+        <ul>
+          <li>
+            <a href="#"><span class="capitalize">A</span>BOUT</a>
+          </li>
+          <li>
+            <a href="#"><span class="capitalize">C</span>AREERS</a>
+          </li>
+          <li>
+            <a href="#"><span class="capitalize">E</span>VENTS</a>
+          </li>
+          <li>
+            <a href="#"><span class="capitalize">P</span>RODUCTS</a>
+          </li>
+          <li>
+            <a href="#"><span class="capitalize">S</span>UPPORT</a>
+          </li>
+        </ul>
+      </nav>
 
-    <!--Navigation menu-->
-    <nav>
-      <ul>
-        <li><a href="#"><span class="capitalize">A</span>BOUT</a></li>
-        <li><a href="#"><span class="capitalize">C</span>AREERS</a></li>
-        <li><a href="#"><span class="capitalize">E</span>VENTS</a></li>
-        <li><a href="#"><span class="capitalize">P</span>RODUCTS</a></li>
-        <li><a href="#"><span class="capitalize">S</span>UPPORT</a></li>
-      </ul>
-    </nav>
-
-    <!--Header content-->
-    <div class="content">
-      <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
-    </div>
-  </header>
-  <main>
-    <section class="vr">
-      <img src="./images/mobile/image-interactive.jpg" alt="interactive leader image">
-      <article>
-        <h2>THE LEADER IN INTERACTIVE VR</h2>
-        <p>
-          Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best
-          companies around the globe. Our award-winning creations have fransformed businesses through digital
-          experiences that bind to their brand.
-        </p>
-      </article>
-    </section>
-  </main>
-</body>
-<script src="./header.js"></script>
-
+      <!--Header content-->
+      <div class="content">
+        <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+      </div>
+    </header>
+    <main>
+      <section class="vr">
+        <img
+          src="./images/mobile/image-interactive.jpg"
+          alt="interactive leader image"
+        />
+        <article>
+          <h2>THE LEADER IN INTERACTIVE VR</h2>
+          <p>
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have fransformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </article>
+      </section>
+      <section class="our-creations">
+        <h2>OUR CREATIONS</h2>
+        <a href="#">SEE ALL</a>
+        <div class="image-container">
+          <img src="./images/mobile/image-deep-earth.jpg" alt="" />
+          <h3>DEEP<br>EARTH</h3>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="./header.js"></script>
 </html>

@@ -18,3 +18,39 @@
         line-height: 1.8;
     }
 }
+
+@media screen and (min-width: 810px) {
+    .vr{
+        display: flex;
+
+        img{
+            width: 24rem;
+            height: 18rem;
+        }
+
+        article{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            padding: 1rem;
+            width: 20rem;
+
+            background-color: rgb(242, 228, 239);
+            
+            h2, p{
+                margin: 0;
+            }
+
+            h2{
+                font-size: 2rem;
+                text-align: left;
+            }
+
+            p{
+                font-size: 0.8rem;
+                text-align: left;
+            }
+        }
+    }
+}
