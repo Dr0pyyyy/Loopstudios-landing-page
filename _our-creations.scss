@@ -5,6 +5,14 @@
 
     margin-bottom: 6rem;
 
+    .mobile-img{
+        display: block;
+    }
+
+    .desktop-img{
+        display: none;
+    }
+
     .image-container {
         position: relative;
 
@@ -33,5 +41,33 @@
         padding-top: 0.9rem;
         font-weight: 700;
         margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 810px) {
+    .our-creations {
+        display: grid;
+
+        img{
+            width: 10px;
+        }
+
+        .mobile-img{
+            display: none;
+        }
+
+        .desktop-img{
+            display: flex;
+        }
+
+        h2{
+            grid-row: 1;
+            grid-column: 1/4;
+        }
+
+        a{
+            grid-row: 1;
+            grid-column: 4;
+        }
     }
 }
