@@ -145,6 +145,9 @@ header .content h1 {
   align-items: center;
   margin-bottom: 6rem;
 }
+.our-creations h2 {
+  font-size: clamp(1.5rem, 5vw, 4rem);
+}
 .our-creations .mobile-img {
   display: block;
 }
@@ -155,7 +158,7 @@ header .content h1 {
   position: relative;
 }
 .our-creations .image-container img {
-  width: 20rem;
+  width: clamp(20rem, 80vw, 40rem);
   margin-bottom: 1rem;
 }
 .our-creations .image-container h3 {
@@ -164,7 +167,7 @@ header .content h1 {
   bottom: 1rem;
   margin-left: 20px;
   font-weight: 300;
-  font-size: 1.4rem;
+  font-size: clamp(1.4rem, 4vw, 2rem);
 }
 .our-creations a {
   color: black;
@@ -181,14 +184,15 @@ header .content h1 {
 @media screen and (min-width: 810px) {
   .our-creations {
     display: grid;
-    grid-template-columns: 12rem 12rem 12rem 12rem;
+    grid-template-columns: clamp(12rem, 20vw, 15rem) clamp(12rem, 20vw, 15rem) clamp(12rem, 20vw, 15rem) clamp(12rem, 20vw, 15rem);
     grid-template-rows: 5rem 22rem 22rem;
-    gap: 1rem;
+    gap: clamp(1rem, 6vw, 6rem) clamp(1rem, 2vw, 2rem);
     padding-top: 10rem;
   }
   .our-creations h2 {
     grid-row: 1;
     grid-column: 1/4;
+    font-size: clamp(2.3rem, 2vw, 3rem);
   }
   .our-creations a {
     grid-row: 1;
@@ -204,7 +208,7 @@ header .content h1 {
   }
   .our-creations .desktop-img {
     display: block;
-    max-width: 12rem;
+    max-width: clamp(12rem, 20vw, 15rem);
   }
 }
 html {
