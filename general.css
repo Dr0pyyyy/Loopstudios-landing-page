@@ -181,15 +181,10 @@ header .content h1 {
 @media screen and (min-width: 810px) {
   .our-creations {
     display: grid;
-  }
-  .our-creations img {
-    width: 10px;
-  }
-  .our-creations .mobile-img {
-    display: none;
-  }
-  .our-creations .desktop-img {
-    display: flex;
+    grid-template-columns: 12rem 12rem 12rem 12rem;
+    grid-template-rows: 5rem 22rem 22rem;
+    gap: 1rem;
+    padding-top: 10rem;
   }
   .our-creations h2 {
     grid-row: 1;
@@ -198,6 +193,18 @@ header .content h1 {
   .our-creations a {
     grid-row: 1;
     grid-column: 4;
+    margin: 0;
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+    width: 5rem;
+    justify-self: end;
+  }
+  .our-creations .mobile-img {
+    display: none;
+  }
+  .our-creations .desktop-img {
+    display: block;
+    max-width: 12rem;
   }
 }
 html {

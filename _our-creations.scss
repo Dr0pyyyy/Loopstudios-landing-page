@@ -47,18 +47,11 @@
 @media screen and (min-width: 810px) {
     .our-creations {
         display: grid;
+        grid-template-columns: 12rem 12rem 12rem 12rem;
+        grid-template-rows: 5rem 22rem 22rem;
+        gap: 1rem;
 
-        img{
-            width: 10px;
-        }
-
-        .mobile-img{
-            display: none;
-        }
-
-        .desktop-img{
-            display: flex;
-        }
+        padding-top: 10rem;
 
         h2{
             grid-row: 1;
@@ -68,6 +61,21 @@
         a{
             grid-row: 1;
             grid-column: 4;
+            margin: 0;
+            padding: 0.6rem 1rem;
+            font-size: 0.8rem;
+            width: 5rem;
+            justify-self: end;
+        }
+
+        .mobile-img{
+            display: none;
+        }
+
+        .desktop-img{
+            display: block;
+            max-width: 12rem;
+
         }
     }
 }
