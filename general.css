@@ -143,7 +143,7 @@ header .content h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
 }
 .our-creations h2 {
   font-size: clamp(1.5rem, 5vw, 4rem);
