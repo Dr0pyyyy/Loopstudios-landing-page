@@ -246,6 +246,31 @@ footer .socials img {
   padding: 0rem 0.4rem;
 }
 
+@media screen and (min-width: 810px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 1rem clamp(4rem, 2vw, 5rem);
+    background-color: black;
+    height: 9rem;
+  }
+  footer ul {
+    display: flex;
+    padding: 0;
+  }
+  footer ul li {
+    padding-right: 1rem;
+  }
+  footer .socials {
+    grid-row: 1;
+    grid-column: 2;
+    justify-self: right;
+  }
+  footer p {
+    justify-self: right;
+  }
+}
 html {
   font-family: "Alata", sans-serif;
 }
