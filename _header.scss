@@ -43,6 +43,29 @@ header {
                     font-size: 2rem;
                     color: white;
                 }
+
+                .underline-animaton {
+                    display: inline-block;
+                    position: relative;
+                }
+
+                .underline-animaton::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    transform: scaleX(0);
+                    height: 2px;
+                    bottom: 0;
+                    left: 0;
+                    background-color: white;
+                    transform-origin: bottom right;
+                    transition: transform 0.25s ease-out;
+                }
+
+                .underline-animaton:hover::after {
+                    transform: scaleX(1);
+                    transform-origin: bottom left;
+                }
             }
         }
     }
@@ -90,7 +113,7 @@ header {
             ul {
                 display: flex;
                 justify-content: end;
-                
+
                 li {
                     padding: 0rem 1rem;
 
@@ -99,7 +122,7 @@ header {
                         font-family: "Alata", sans-serif;
                         text-transform: lowercase;
 
-                        .capitalize{
+                        .capitalize {
                             text-transform: capitalize;
                         }
                     }

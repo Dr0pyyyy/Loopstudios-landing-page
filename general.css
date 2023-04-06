@@ -36,6 +36,26 @@ header nav ul li a {
   font-size: 2rem;
   color: white;
 }
+header nav ul li .underline-animaton {
+  display: inline-block;
+  position: relative;
+}
+header nav ul li .underline-animaton::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+header nav ul li .underline-animaton:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 header .content {
   border: 2px solid white;
   padding: 1.3rem;
@@ -273,6 +293,7 @@ footer .socials img {
 }
 html {
   font-family: "Alata", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
